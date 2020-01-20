@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=GND Pin=UP1-1
+Removed Pin From Net: NetName=NetF1_1 Pin=UP1-2
+Removed Pin From Net: NetName=5V Pin=UP1-3
+Removed Pin From Net: NetName=3V3 Pin=UP1-4
+Removed Member From Class: ClassName=LEDProject Member=UP1
+Change Component Designator: OldDesignator=C3_12v NewDesignator=FC_IN
+Change Component Designator: OldDesignator=C3v NewDesignator=FC_OUT
+Change Component Designator: OldDesignator=Ct3_12 NewDesignator=Cin
+Added Component: Designator=Cch2(Tantalum Cap Size A)
+Added Component: Designator=U1(SOT-223)
+Added Pin To Net: NetName=NetDpw2_1 Pin=Cch2-1
+Added Pin To Net: NetName=GND Pin=Cch2-2
+Added Pin To Net: NetName=5V Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=NetF1_1 Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Change Net Name : Old Net Name=3V3 New Net Name=3V3M
+Change Net Name : Old Net Name=NetDpw2_1 New Net Name=NetCch2_1
+Added Member To Class: ClassName=LEDProject Member=Component Cch2 CAP2
+Added Member To Class: ClassName=LEDProject Member=Component U1 SPX3940
