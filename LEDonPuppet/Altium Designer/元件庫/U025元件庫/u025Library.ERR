@@ -1,0 +1,7 @@
+Component Rule Check Report for : D:\9852025\專題\PCB元件庫\u025Library.SchLib
+
+
+Name                Errors
+------------------------------------------------------------------
+Graphic OLED 12864B (Duplicate Pin Number : Normal: 5) 
+                    (Missing Pin Number In Sequence : 11 [1..16]) 
